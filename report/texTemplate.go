@@ -28,7 +28,7 @@ const defaultTemplate = `
 \date{[[.FromFormatted]]\\to\\[[.ToFormatted]]}
 \maketitle
 \begin{center}
-[[range .Panels]][[if .IsSingleStat]]\begin{minipage}{0.3\textwidth}
+[[range .Panels]][[if .IsStat]]\begin{minipage}{0.3\textwidth}
 \includegraphics[width=\textwidth]{image[[.Id]]}
 \end{minipage}
 [[else]]\par
